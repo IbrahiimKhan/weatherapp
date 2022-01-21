@@ -1,6 +1,26 @@
 {
   "dependencies": {
     "dotenv": "^11.0.0",
+    "nodemon": "^2.0.15",
     "requests": "^0.3.0"
-  }
+  },
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDEvIbrahim/weatherapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebDEvIbrahim/weatherapp/issues"
+  },
+  "homepage": "https://github.com/WebDEvIbrahim/weatherapp#readme",
+  "description": ""
 }
